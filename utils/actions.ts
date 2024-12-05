@@ -43,5 +43,8 @@ export const createProductAction = async (
   prevState: any,
   formData: FormData
 ): Promise<{ message: string }> => {
+  try {
+  } catch (error) {}
+
   return { message: 'Produit ajouté' }
 }
