@@ -25,7 +25,6 @@ function FormContainer({
         description: state.message,
       })
     }
-    return
   }, [state])
 
   return <form action={formAction}>{children}</form>

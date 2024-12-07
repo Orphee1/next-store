@@ -19,7 +19,7 @@ function Hero() {
           perferendis, nisi ab ad vel reprehenderit impedit doloribus aliquam.
         </p>
         <Button asChild className='mt-10'>
-          <Link href='/products'>Our Products</Link>
+          <Link href='/products'>Nos produits</Link>
         </Button>
       </div>
       <HeroCarousel />
