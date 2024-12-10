@@ -347,6 +347,7 @@ export const findExistingReview = async (productId: string, userId: string) => {
 
 export const fetchCartItems = async () => {
   const { userId } = auth()
+
   const cart = await db.cart.findFirst({
     where: {
       clerkId: userId ?? '',
