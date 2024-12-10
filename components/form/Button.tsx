@@ -18,7 +18,7 @@ type SubmitButtonProps = {
 
 export function SubmitButton({
   className = '',
-  text = 'submit',
+  text = 'Adresser',
   size = 'lg',
 }: SubmitButtonProps) {
   const { pending } = useFormStatus()
@@ -103,5 +103,15 @@ export const CardSubmitButton = ({ isFavorite }: { isFavorite: boolean }) => {
         <FaRegHeart />
       )}
     </Button>
+  )
+}
+
+export const ProductSignInButton = () => {
+  return (
+    <SignInButton mode='modal'>
+      <Button type='button' className='mt-8'>
+        Se connecter
+      </Button>
+    </SignInButton>
   )
 }

@@ -27,6 +27,29 @@ export const productSchema = z.object({
   ),
 })
 
+export const reviewSchema = z.object({
+  productId: z.string().refine((value) => value !== '', {
+    message: 'Product ID cannot be empty',
+  }),
+  authorName: z.string().refine((value) => value !== '', {
+    message: 'Author name cannot be empty',
+  }),
+  authorImageUrl: z.string().refine((value) => value !== '', {
+    message: 'Author image URL cannot be empty',
+  }),
+  rating: z.coerce
+    .number()
+    .int()
+    .min(1, { message: 'Rating must be at least 1' })
+    .max(5, { message: 'Rating must be at most 5' }),
+  comment: z
+    .string()
+    .min(10, { message: 'Dîtes nous en plus : au moins 10 caractères' })
+    .max(1000, {
+      message: 'Dîtes nous en moins : pas plus de 1000 caractères',
+    }),
+})
+
 export const imageSchema = z.object({
   image: validateImageFile(),
 })

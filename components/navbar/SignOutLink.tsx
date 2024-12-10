@@ -14,7 +14,7 @@ function SignOutLink() {
   return (
     <SignOutButton>
       <Link href='/' className='w-full text-left' onClick={handleLogout}>
-        Logout
+        Se déconnecter
       </Link>
     </SignOutButton>
   )

@@ -29,13 +29,13 @@ function LinksDropDown() {
         <SignedOut>
           <DropdownMenuItem>
             <SignInButton mode='modal'>
-              <button className='w-full text-left'>Login</button>
+              <button className='w-full text-left'>Se connecter</button>
             </SignInButton>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <SignUpButton mode='modal'>
-              <button className='w-full text-left'>Signup</button>
+              <button className='w-full text-left'>Créer un compte</button>
             </SignUpButton>
           </DropdownMenuItem>
         </SignedOut>
