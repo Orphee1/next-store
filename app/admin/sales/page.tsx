@@ -23,7 +23,7 @@ async function SalesPage() {
           <TableHead>Produits</TableHead>
           <TableHead>Total</TableHead>
           <TableHead>TVA</TableHead>
-          <TableHead>Frais d'envoi</TableHead>
+          <TableHead>{`Frais d'envoi`}</TableHead>
           <TableHead>Date</TableHead>
         </TableRow>
       </TableHeader>
