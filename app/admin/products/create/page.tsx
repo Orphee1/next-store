@@ -15,7 +15,9 @@ function CreateProductPage() {
 
   return (
     <section>
-      <h1 className='capitalize font-semibold mb-8 text-2xl'>Create product</h1>
+      <h1 className='capitalize font-semibold mb-8 text-2xl'>
+        Créer un article
+      </h1>
       <div className='border p-8 rounded-md'>
         <FormContainer action={createProductAction}>
           <div className='grid gap-4 md:grid-cols-2 my-4'>

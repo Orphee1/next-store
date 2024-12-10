@@ -5,7 +5,6 @@ function ProductsPage({
 }: {
   searchParams: { layout?: string; search?: string }
 }) {
-  // console.log(searchParams)
   const layout = searchParams.layout || 'grid'
   const search = searchParams.search || ''
 

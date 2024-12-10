@@ -6,7 +6,7 @@ type NavLink = {
 export const links: NavLink[] = [
   { href: '/', label: 'home' },
   { href: '/about', label: 'à propos' },
-  { href: '/products', label: 'produits' },
+  { href: '/products', label: 'articles' },
   { href: '/favorites', label: 'favoris' },
   { href: '/reviews', label: 'avis' },
   { href: '/cart', label: 'panier' },
@@ -16,6 +16,6 @@ export const links: NavLink[] = [
 
 export const adminLinks: NavLink[] = [
   { href: '/admin/sales', label: 'ventes' },
-  { href: '/admin/products', label: 'mes produits' },
-  { href: '/admin/products/create', label: 'créer un produit' },
+  { href: '/admin/products', label: 'mes articles' },
+  { href: '/admin/products/create', label: 'créer un article' },
 ]

@@ -20,7 +20,7 @@ async function SalesPage() {
       <TableHeader>
         <TableRow>
           <TableHead>Email</TableHead>
-          <TableHead>Produits</TableHead>
+          <TableHead>Articles</TableHead>
           <TableHead>Total</TableHead>
           <TableHead>TVA</TableHead>
           <TableHead>{`Frais d'envoi`}</TableHead>

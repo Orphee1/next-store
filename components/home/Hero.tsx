@@ -8,8 +8,7 @@ function Hero() {
       <div>
         <h1
           className='max-w-2xl font-bold
-        text-4xl sm:text-6xl tracking-tight
-        '
+        text-4xl sm:text-6xl tracking-tight'
         >
           We are changing the way people shop
         </h1>
@@ -19,7 +18,7 @@ function Hero() {
           perferendis, nisi ab ad vel reprehenderit impedit doloribus aliquam.
         </p>
         <Button asChild className='mt-10'>
-          <Link href='/products'>Nos produits</Link>
+          <Link href='/products'>Nos articles</Link>
         </Button>
       </div>
       <HeroCarousel />

@@ -22,7 +22,7 @@ async function OrdersPage() {
         <TableCaption>Nombre de commandes : {orders.length}</TableCaption>
         <TableHeader>
           <TableRow>
-            <TableHead>Produits</TableHead>
+            <TableHead>Articles</TableHead>
             <TableHead>Total</TableHead>
             <TableHead>TVA</TableHead>
             <TableHead>{`Frais d'envoi`}</TableHead>
